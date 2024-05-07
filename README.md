@@ -1,6 +1,7 @@
 # Discrete-Time Diffusion Models for Discrete Data
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/paulffm/Discrete-Time-Diffusion-Models-for-Continuous-Data/blob/main/LICENSE)
+
 Unofficial **PyTorch** reimplementations of the
 papers [Denoising Diffusion Probabilistic Models](https://arxiv.org/pdf/2006.11239)
 by J. Ho et al. and [Improved Denoising Diffusion Probabilistic Models](https://arxiv.org/pdf/2102.09672)
