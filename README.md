@@ -17,7 +17,7 @@ by A. Nichol et al., both with [Classifier-Free Diffusion Guidance](https://open
 This implementation provides example notebooks for training/retraining the models from the papers to generate MNIST data.
 
 ## Results
-D3PM results on MNIST: FID: 2.32; Inception Score: 8.6
+DDPM results on MNIST: FID: 2.32; Inception Score: 8.6
 
 <p align="center">
   <img src="mnist_samples_cont.png"  alt="1" width = 600px height = 600px>
