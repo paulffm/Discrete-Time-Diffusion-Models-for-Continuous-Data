@@ -43,7 +43,12 @@ pip install -r requirements.txt
 
 ## Usage
 
-This implementation provides example notebooks for training/retraining the models from the papers to generate MNIST data.
+This implementation provides example notebooks for training and retraining the models from the papers to generate MNIST data. The following notebooks are available:
+
+- **`experiment_continuous.ipynb`**: Notebook for training and sampling the model.
+- **`experiment_use_saved_models.ipynb`**: Notebook for retraining and sampling an existing model.
+
+Run these notebooks to train, retrain, and generate MNIST data.
 
 ## Results
 DDPM results on MNIST: FID: 2.32; Inception Score: 8.6
