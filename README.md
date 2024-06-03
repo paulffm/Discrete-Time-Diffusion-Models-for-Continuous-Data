@@ -11,6 +11,10 @@ by A. Nichol et al., both with [Classifier-Free Diffusion Guidance](https://open
   <img src="forward_reverse_process.png"  alt="1" width = 820px height = 250px >
 </p>
 
+## Installation
+
+Follow these steps to clone the repository and install the dependencies:
+
 ### 1. Clone the repository
 
 Clone the repository using the following command:
