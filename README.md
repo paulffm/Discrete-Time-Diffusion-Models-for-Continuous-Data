@@ -11,6 +11,31 @@ by A. Nichol et al., both with [Classifier-Free Diffusion Guidance](https://open
   <img src="forward_reverse_process.png"  alt="1" width = 820px height = 250px >
 </p>
 
+### 1. Clone the repository
+
+Clone the repository using the following command:
+
+```sh
+git clone https://github.com/paulffm/Discrete-Time-Diffusion-Models-for-Continuous-Data.git
+cd Discrete-Time-Diffusion-Models-for-Continuous-Data
+```
+
+### 2. Create a virtual environment
+
+Create a virtual environment to install dependencies in isolation:
+
+```sh
+python -m venv myvenv
+source myvenv/bin/activate  # On Windows use `myvenv\Scripts\activate`
+```
+
+### 3. Install dependencies
+
+Install the necessary dependencies using pip:
+
+```sh
+pip install -r requirements.txt
+```
 
 ## Usage
 
