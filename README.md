@@ -8,7 +8,7 @@ by J. Ho et al. and [Improved Denoising Diffusion Probabilistic Models](https://
 by A. Nichol et al., both with [Classifier-Free Diffusion Guidance](https://openreview.net/pdf?id=qw8AKxfYbI)
 
 <p align="center">
-  <img src="forward_reverse_process.png"  alt="1" width = 820px height = 250px >
+  <img src="dm.png"  alt="1" width = 1025px height = 173px >
 </p>
 
 ## Installation
