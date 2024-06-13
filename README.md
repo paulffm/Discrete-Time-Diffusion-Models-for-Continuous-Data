@@ -50,6 +50,46 @@ This implementation provides example notebooks for training and retraining the m
 
 Run these notebooks to train, retrain, and generate MNIST data.
 
+Additionally, a configuration file is provided in this repository, which allows you to set various parameters for the training and model settings. The parameters and their descriptions are as follows:
+
+| Parameter                | Description                                                        | Type    |
+| ------------------------ | ------------------------------------------------------------------ | ------- |
+| data.batch_size          | Batch size used for training                                       | int     |
+| data.dataset             | Name of the dataset                                                | str     |
+| data.image_size          | Size of the input images                                            | int     |
+| data.use_augmentation    | Whether to use data augmentation                                   | bool    |
+| diffusion.beta_schedule  | Schedule type for beta values                                      | str     |
+| diffusion.image_size     | Size of the diffusion images                                       | int     |
+| diffusion.in_channels    | Number of input channels                                           | int     |
+| diffusion.loss_type      | Type of loss function                                              | str     |
+| diffusion.timesteps      | Number of timesteps for diffusion process                          | int     |
+| model.channels           | Number of channels in the model                                    | int     |
+| model.class_embed_dim    | Dimension of class embeddings                                      | int     |
+| model.dim                | Base dimension of the model                                        | int     |
+| model.dim_mults          | Multipliers for model dimensions at different stages               | list[int]|
+| model.init_dim           | Initial dimension (set to null, treated as int)                    | int     |
+| model.learned_sinusoidal_dim | Dimension for learned sinusoidal embeddings                      | int     |
+| model.num_classes        | Number of classes (set to null, treated as int)                    | int     |
+| model.out_dim            | Output dimension (set to null, treated as int)                     | int     |
+| model.resnet_block_groups| Number of groups in ResNet blocks                                  | int     |
+| model.self_condition     | Whether to use self-conditioning                                   | bool    |
+| model.use_bits           | Whether to use bit representations                                 | bool    |
+| model.use_learned_var    | Whether to use learned variance                                    | bool    |
+| model.use_sinposemb      | Whether to use sinusoidal position embeddings                      | bool    |
+| optimizer.lr             | Learning rate for the optimizer                                    | float   |
+| optimizer.optimizer      | Optimizer type                                                     | str     |
+| trainer.batch_size       | Batch size used for training                                       | int     |
+| trainer.cond_weight      | Conditional weight for training                                    | float   |
+| trainer.device           | Device to be used for training                                     | str     |
+| trainer.image_size       | Size of the input images                                            | int     |
+| trainer.loss_show_epoch  | Frequency (in epochs) of showing loss                              | int     |
+| trainer.model_name       | Name used for saving the model checkpoint                          | str     |
+| trainer.nb_epochs        | Number of epochs for training                                      | int     |
+| trainer.sample_epoch     | Frequency (in epochs) of sampling                                  | int     |
+| trainer.save_epoch       | Frequency (in epochs) of saving the model checkpoint               | int     |
+| trainer.use_cfg          | Whether to use configuration                                        | bool    |
+| trainer.use_ema          | Whether to use Exponential Moving Average (EMA)                    | bool    |
+
 ## Results
 DDPM results on MNIST: FID: 2.32; Inception Score: 8.6
 
